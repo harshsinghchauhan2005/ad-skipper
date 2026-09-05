@@ -1,11 +1,3 @@
-// background.js — runs as a service worker (Manifest V3)
-// Responsibilities:
-//   1. On install/startup, load selectors.json (local, then try remote override)
-//   2. Store it in chrome.storage.local so content scripts can read it
-//   3. Keep a periodic refresh so selector fixes reach users without a new release
-//   4. Track simple stats (ads skipped, estimated seconds saved)
-
-// TODO: replace with your own raw GitHub URL once you push config/selectors.json
 const REMOTE_CONFIG_URL =
   "https://raw.githubusercontent.com/harshsinghchauhan2005/ad-skipper/main/config/selectors.json";
 
