@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1>Ad Skipper</h1>
+
+  <label class="toggle-row">
+    <span>Enabled</span>
+    <input type="checkbox" id="enabledToggle" />
+  </label>
+
+  <div class="stats">
+    <div class="stat">
+      <span id="adsSkipped">0</span>
+      <label>ads skipped</label>
+    </div>
+    <div class="stat">
+      <span id="timeSaved">0s</span>
+      <label>time saved</label>
+    </div>
+  </div>
+
+  <div class="whitelist">
+    <h2>Support these creators (no auto-skip)</h2>
+    <div class="whitelist-input">
+      <input type="text" id="channelInput" placeholder="Channel name" />
+      <button id="addChannel">Add</button>
+    </div>
+    <ul id="whitelistItems"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
