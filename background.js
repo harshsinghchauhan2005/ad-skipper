@@ -7,7 +7,7 @@
 
 // TODO: replace with your own raw GitHub URL once you push config/selectors.json
 const REMOTE_CONFIG_URL =
-  "https://raw.githubusercontent.com/YOUR_USERNAME/ad-skipper/main/config/selectors.json";
+  "https://raw.githubusercontent.com/harshsinghchauhan2005/ad-skipper/main/config/selectors.json";
 
 const REFRESH_ALARM = "ad-skipper-refresh-config";
 
