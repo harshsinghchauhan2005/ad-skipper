@@ -3,7 +3,7 @@
   "name": "Ad Skipper",
   "version": "0.1.0",
   "description": "Automatically skips ads when the skip button becomes available. Multi-site support with self-healing selectors.",
-  "permissions": ["storage"],
+  "permissions": ["storage","alarms"],
   "host_permissions": [
     "*://*.youtube.com/*",
     "*://*.twitch.tv/*"
